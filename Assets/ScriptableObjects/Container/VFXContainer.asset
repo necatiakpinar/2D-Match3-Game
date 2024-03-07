@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214eb38a70a5415182896f6e18fe1bac, type: 3}
+  m_Name: VFXContainer
+  m_EditorClassIdentifier: 
+  _match2VFXes:
+  - key: VFX_CubeParticle
+    _vfxObject: {fileID: 5429685260228299130, guid: 17d8b588a22229e4bb54e5cdbef64f24, type: 3}
+    _isPoolObject: 1
+    _poolSize: 30
+  - key: VFX_GoalWidgetCollection
+    _vfxObject: {fileID: 6366247423219002888, guid: 16e9757afb0d1b840a33de4000a904d1, type: 3}
+    _isPoolObject: 1
+    _poolSize: 20

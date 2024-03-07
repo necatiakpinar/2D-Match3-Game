@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8898182141802527292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8898182141802527293}
+  - component: {fileID: 8898182141802527290}
+  m_Layer: 0
+  m_Name: MonoDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8898182141802527293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8898182141802527292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8898182141802527290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8898182141802527292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be21ec2a0ec63d849b947e75b43d71aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tileMonoData: {fileID: 11400000, guid: b96ba9212f2b4214d93b3ac244da481b, type: 2}
+  _gridData: {fileID: 11400000, guid: 528ca672883c9a641a87600c79058bc9, type: 2}
+  _levelDataContainer: {fileID: 11400000, guid: 36bd83bc5edc63842a21386399f19480, type: 2}
+  _sfxDataContainer: {fileID: 11400000, guid: d03bfcce4c6c6a449a0875984bbf7d8b, type: 2}
+  _vfxDataContainer: {fileID: 11400000, guid: 4414ccdc31c0a944da86674e0258c958, type: 2}
+  _goalSpriteAtlas: {fileID: 4343727234628468602, guid: 212e87a24f307e545a611e0a330b9d17, type: 2}

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GoalSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 69fcfb9110eee9940baade597eda97a5, type: 3}
+    - {fileID: 102900000, guid: d3ddba834e1bb684f96176e40df8eb58, type: 3}
+    - {fileID: 102900000, guid: d3ae62425b2e6ef499dd7cd1db765e26, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 5b90c653b98c1ff4b956daa12258dc35: 21300000
+    - 187194671b000a44e8664c4dc99d689a: 21300000
+    - b3b548c7289d14140a1c66ed4c47f205: 21300000
+    - 6681b8f92e6f87444b6012a997bd8b44: 21300000
+    - 760338aa5e0338049b75e18c507befca: 21300000
+    - 1e5d7a5cc11c8974d979d9b8d8376d60: 21300000
+    - 762ad5bcd0369e24a8937f809498499e: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 5b90c653b98c1ff4b956daa12258dc35, type: 3}
+  - {fileID: 21300000, guid: 187194671b000a44e8664c4dc99d689a, type: 3}
+  - {fileID: 21300000, guid: b3b548c7289d14140a1c66ed4c47f205, type: 3}
+  - {fileID: 21300000, guid: 6681b8f92e6f87444b6012a997bd8b44, type: 3}
+  - {fileID: 21300000, guid: 760338aa5e0338049b75e18c507befca, type: 3}
+  - {fileID: 21300000, guid: 1e5d7a5cc11c8974d979d9b8d8376d60, type: 3}
+  - {fileID: 21300000, guid: 762ad5bcd0369e24a8937f809498499e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PurpleCube
+  - RedCube
+  - GreenCube
+  - YellowCube
+  - Duck
+  - BalloonBlocker
+  - BlueCube
+  m_RenderDataMap: {}
+  m_Tag: GoalSpriteAtlas
+  m_IsVariant: 0

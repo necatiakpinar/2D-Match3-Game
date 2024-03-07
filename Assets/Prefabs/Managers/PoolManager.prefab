@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2388812919519127440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2388812919519127441}
+  - component: {fileID: 2388812919519127442}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2388812919519127441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388812919519127440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2388812919519127442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388812919519127440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd2f25fd8c54e95accc7be89ee692db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - _elementType: 41256
+    _tileElement: {fileID: 4260272519177084848, guid: 07f6d71b904fb0647ad2d22b7107e063, type: 3}
+    _size: 100
+  - _elementType: 92345
+    _tileElement: {fileID: 4260272519177084848, guid: 2c2f68b2424fcc64f9683893910453b6, type: 3}
+    _size: 100
+  - _elementType: 85761
+    _tileElement: {fileID: 4260272519177084848, guid: dd8277290fc080642ab16ad2c02fe3f6, type: 3}
+    _size: 100
+  - _elementType: 54389
+    _tileElement: {fileID: 4260272519177084848, guid: 6ccff47f6309ecb4390371259e70cb0e, type: 3}
+    _size: 100
+  - _elementType: 76912
+    _tileElement: {fileID: 4260272519177084848, guid: 7e870c5d1584ef44f9cf74d638ef5de2, type: 3}
+    _size: 100
+  - _elementType: 32911
+    _tileElement: {fileID: 8428649843113832596, guid: de5434508011271488c51bd0658d5dd3, type: 3}
+    _size: 30
+  - _elementType: 19413
+    _tileElement: {fileID: 7791343816334203296, guid: 08e56786a4a19164fbf503e1644f436e, type: 3}
+    _size: 30
+  - _elementType: 15109
+    _tileElement: {fileID: 7412468703933830233, guid: 575b920f0b92b9048811add0ee588c01, type: 3}
+    _size: 50
+  - _elementType: 66210
+    _tileElement: {fileID: 1908865378747845603, guid: f5371a418bfa5dd4fa06fb8bb4b8858c, type: 3}
+    _size: 30

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179acc7663d848df98022a5a77860b60, type: 3}
+  m_Name: LevelData_00
+  m_EditorClassIdentifier: 
+  _levelIndex: 0
+  _goals:
+  - _type: 41256
+    _amount: 30
+  - _type: 54389
+    _amount: 30
+  _moves: 20
+  _spawnableElements:
+  - _elementType: 41256
+    _spawnRatio: 30
+  - _elementType: 92345
+    _spawnRatio: 15
+  - _elementType: 85761
+    _spawnRatio: 15
+  - _elementType: 54389
+    _spawnRatio: 30
+  _gridSize: {x: 6, y: 6}
